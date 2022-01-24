@@ -3,10 +3,10 @@
 let myArray = ['Sébastien', 'Laurence', 'Ludovic', 'Pauline', 'Guillaume'];
 alert(myArray[4]); // affiche Guillaume
 
-myArray.shift(); //Retire Sébastien
+myArray.shift(); //Retire Sébastien qui est le 1er
 alert(myArray);
 
-myArray.pop(); //Retire Guillaume
+myArray.pop(); //Retire Guillaume qui est le dernier
 alert(myArray);
 
 let cousinsString = "Pauline Guillaume Clarisse";
